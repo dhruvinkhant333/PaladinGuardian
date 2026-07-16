@@ -1,0 +1,10 @@
+# --- Step 1 runtime deps ---
+# (none — core/ and utils/ built so far use only the standard library,
+#  by design: see the docstring in core/timer.py)
+
+# --- Coming in the next step (tray + overlay UI) ---
+PySide6>=6.7
+
+# --- Dev / test ---
+pytest>=8.0
+black>=24.0
